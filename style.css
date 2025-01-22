@@ -1,0 +1,298 @@
+body{
+    background-color: #F5F5F5;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cabecera__nomStar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.navegacion__lista{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    color: black; 
+    font-size: 16px;
+    font-family: 'Raleway';
+
+}
+
+.navegacion__correo{
+    font-style: 700;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #464646;
+
+}
+
+.mi__nombre{
+    font-size: 16px;
+    font-family: 'Raleway';
+}
+
+.estrellitas__cabecera{
+    height: 20px;
+}
+
+
+.presentacion__nomComp{
+    color: #464646;
+    font-family: 'Releway';
+    font-size: 52px;
+}
+
+.presentacion__educacion{
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 22px;
+}
+
+.enlaces{
+    display: flex;
+    justify-content:left;
+}
+
+.enlaces__lista{
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.flecha__git{
+    height: 23px;
+    width: 23px;
+}
+.enlaces__github{
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+    align-items: center;
+}
+.flecha__link{
+    height: 23px;
+    width: 23px;
+}
+.enlaces__linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+.flecha__insta{
+    height: 23px;
+    width: 23px;
+}
+.enlaces__instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+.flecha__curriculum{
+    width: 23px;
+    height: 23px;
+}
+.enlaces__curriculum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.presentacion__foto{
+    height: 368px;
+    width: 368px;
+    border-radius: 50%;
+}
+
+.sobre__mi{
+    color: #464646;
+    font-size: 32px;
+    font-family: 'Raleway';
+}
+
+.presentacion__descripcion{
+    color: #464646;
+    font-size: 16;
+    font-family: 'Raleway';
+}
+
+.presentacion__sobremi{
+    background-color: #EAF2FD;
+    background-attachment: fixed;
+}
+
+.skills{
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 32px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hobbies{
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 32px;
+    text-align: center;
+}
+
+.cuadrado{
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 176px;
+    height: 174px;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor__skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor__hobbies{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill__python{
+    height: 48px;
+    width: 46px;
+}
+
+.hobbie__leer{
+    height: 36px;
+    width: 34px;
+}
+
+.formacion__academica{
+    background-color: #EAF2FD;
+    margin-top: 50px;
+}
+
+.formacion{
+    font-size: 32px;
+    color: #464646;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contenedor__forma{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cuadrado__formacion{
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 176px;
+    height: 174px;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formacion__ipn{
+    height: 85%;
+}
+
+.formacion__esime{
+    height: inherit;
+    height: inherit;
+}
+
+.formacion__alura{
+    height: inherit;
+    width: inherit;
+}
+
+.experiencia__contenido{
+    display: flex;
+    justify-content: center;
+}
+
+.experiencia__titulo{
+    font-size: 32px;
+    color: #464646;
+}
+
+.imagen__proyecto1{
+    height: 400px;
+}
+
+.titulo__proyecto{
+    font-size: 22px;
+    color: #464646;
+    font-style: bold;
+    font-family: Raleway;
+}
+
+.texto{
+    font-size: 16;
+    color: #464646;
+    font-family: Raleway;
+}
+
+.primer__proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.boton__repositorio{
+    background: white;
+    color: #2A7AE4;
+    text-align: center;
+    border-color: #2A7AE4;
+    width: 116;
+    height: 51;
+}
+
+.boton__demo{
+    background: #2A7AE4;
+    color: white;
+    border-color:  #2A7AE4;
+    width: 132;
+    height: 51;
+    margin-left: 16px;
+}
